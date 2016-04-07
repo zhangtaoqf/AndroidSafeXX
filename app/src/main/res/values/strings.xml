@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">手机防盗</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">密码 (optional)</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">这不是一个有效的邮箱地址</string>
+    <string name="error_invalid_password">该密码太短</string>
+    <string name="error_incorrect_password">输入不正确</string>
+    <string name="error_field_required">该值不能为空</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_jian_c">JianCActivity</string>
+
+    <!--帮助页面的数据 -->
+
+    <string name="we_fragment_shengming">本软件是辅助性软件，我们尽最大能力增加手机被盗的难度，提高手机找回的几率。但本软件不能替代您的细心，不能保证你的手机不被盗走，也不能保证你的手机能够完全被找回，另外本软件尚有不成熟的地方，请大家谅解。建议您将该软件安装在手机内存中，否则该软件不能开机自启动。</string>
+    <string name="we_fragment_gongnengjj">本软件分为即时防盗和永久防盗服务保护，其中即时防盗是通过监听周围环境来达到的一种保护状态，永久防盗中包含了，sim卡更换通知，语音炸弹，远程备份数据，远程删除数据，远程定位等功能。在用到永久防盗这个模块功能的时候，我们需要注意的就是一定要输入一个有效的安全手机号，这个号是能不能找回手机的关键号码，并且我们在设置了号码之后，一定要记牢找回的相关命令。否则就需要联系软件相关人员来解决。我的这个手机号码是用来实现如下功能要用的，如：通讯录备份，远程定位，偷拍照片，锁定屏幕，删除数据。这些功能都是来借助这个安全手机号码来完成的。所以这个号码是非常重要的。</string>
+    <string name="we_fragment_shiyongsm">即时防盗设置：
+\n操作方式：主界面的左划菜单有一项叫即时防盗，点击之后会出现一个界面，这个界面中显示了功能设置模块和传感器体验模块，功能设置模块里面包括两项内容，第一项内容是我们要用的传感器来实现我们的即时防盗，那么必须前提条件必须要保证我们的传感器存在，那么就需要传感器检测这个功能来对我们的传感器进行一个检测。第二个功能是防盗设置，防盗设置会根据你所具有的传感器来给你设置相应的即时防盗。你点击传感器设置直接打开就设置好了即时防盗。第二个模块是传感器体验模块，它里面包含了一些传感器体验的内容，如：指南针，摇一摇，水平仪，增强了用户对传感器的理解。
+\n永久防盗设置：
+\n安全手机号码设置：第一步到达永久防盗界面，点击设置，之后有安全手机号码。输入。点击OK即可。
+\n短信控制指令：通过您设置的安全号码向此手机号码发送控制短信，控制短信的格式为:#*描述*#
+\n功能说明：
+\n#*location*#：定位当前设备的位置
+\n#*alarm*#：发出报警声
+\n#*wipedata*#：擦出数据
+\n#*lockscreen*#：锁定屏幕
+\n#*sendcontacts*#：备份联系人</string>
+    <string name="we_fragment_lianxiwe">如果您在使用过程中出现了任何问题或者想提供的建议，可以与下方的联系方式联系我们：
+280243697@qq.com
+感谢您对支持</string>
+</resources>
