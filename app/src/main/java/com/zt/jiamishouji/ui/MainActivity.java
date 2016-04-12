@@ -215,6 +215,11 @@ public class MainActivity extends BaseActivity
 
     @Override
     public void goToAc(Class<?> cls) {
-        startActivity(new Intent(this,cls), ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+        if(Integer.valueOf(android.os.Build.VERSION.SDK)>20)
+        {
+            startActivity(new Intent(this,cls), ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+        }
+        else
+            startActivity(new Intent(this,cls));
     }
 }
