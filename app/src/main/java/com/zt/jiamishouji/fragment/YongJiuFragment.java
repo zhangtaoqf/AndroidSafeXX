@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.zt.jiamishouji.R;
 import com.zt.jiamishouji.appconfig.AppConfig;
+import com.zt.jiamishouji.ui.LocationXActivity;
 import com.zt.jiamishouji.ui.YongJiuSZActivity;
 import com.zt.jiamishouji.util.MySharePreferenceUtils;
 
@@ -153,7 +154,6 @@ public class YongJiuFragment extends BaseFragment {
                 break;
             case 7:
             case 1:
-            case 2:
             case 3:
             case 4:
             case 5:
@@ -162,6 +162,10 @@ public class YongJiuFragment extends BaseFragment {
                         .setMessage("你需要短信输入:"+COMMAND_SAFE[position]+"命令，开启")
                         .setTitle("提示")
                         .create().show();
+                break;
+            case 2:
+                //定位的activity
+                callback.goToAc(LocationXActivity.class);
                 break;
         }
     }

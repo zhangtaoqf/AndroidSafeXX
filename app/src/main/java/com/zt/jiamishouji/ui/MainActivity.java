@@ -1,6 +1,5 @@
 package com.zt.jiamishouji.ui;
 
-import android.app.ActivityOptions;
 import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
 import android.content.Context;
@@ -215,11 +214,12 @@ public class MainActivity extends BaseActivity
 
     @Override
     public void goToAc(Class<?> cls) {
-        if(Integer.valueOf(android.os.Build.VERSION.SDK)>20)
+        /*if(Integer.valueOf(android.os.Build.VERSION.SDK)>20)
         {
             startActivity(new Intent(this,cls), ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         }
         else
-            startActivity(new Intent(this,cls));
+            startActivity(new Intent(this,cls));*/
+        startActivity(new Intent(this,cls));
     }
 }
